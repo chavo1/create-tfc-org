@@ -1,7 +1,6 @@
 resource tfe_organization myorg {
   name  = var.organization
   email = "mike@example.com"
-  token = var.token
 }
 
 resource tfe_oauth_client myorg {
